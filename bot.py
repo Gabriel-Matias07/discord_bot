@@ -3,8 +3,8 @@ from discord.ext import commands, tasks
 import datetime
 import requests
 
-TOKEN = 'seu_token'
-WEATHER_API_KEY = 'sua_chave'
+# TOKEN = ''
+# WEATHER_API_KEY = ''
 
 intents = discord.Intents.default()
 intents.message_content = True
