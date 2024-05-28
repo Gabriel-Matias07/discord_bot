@@ -3,8 +3,7 @@ from discord.ext import commands, tasks
 import datetime
 import requests
 
-# TOKEN = ''
-# WEATHER_API_KEY = ''
+# Crie as constantes da chave api e do token do discord
 
 intents = discord.Intents.default()
 intents.message_content = True
