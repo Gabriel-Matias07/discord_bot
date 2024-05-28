@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 import datetime
 import requests
 
-# Crie as constantes da chave api e do token do discord
+# Crie as constantes da chave api e do discord
 
 intents = discord.Intents.default()
 intents.message_content = True
